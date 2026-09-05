@@ -17,7 +17,7 @@ const Database = require("better-sqlite3");
 
 const PORT = process.env.PORT || 3000;
 const BOT_API_KEY = process.env.BOT_API_KEY || "change-this-secret";
-const KEY_TTL_MS = 3 * 60 * 1000; // keys expire 10 minutes after being generated
+const KEY_TTL_MS = 5 * 60 * 1000; // keys expire 10 minutes after being generated
 
 const app = express();
 app.use(express.json());
